@@ -26,14 +26,18 @@
     "vue-tsc": "^2.2.10"
   },
   "lint-staged": {
-     "*.{js,ts,vue}": [
-       "eslint --fix",
-       "prettier --write"
-     ]
-   },
-   "config": {
-     "commitizen": {
-       "path": "cz-conventional-changelog"
-     }
-   }
+    "*.{js,ts,vue}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.6",
+    "vue": "^3.5.17"
+  }
 }
