@@ -1,12 +1,12 @@
 <template>
   <div>
-    <button>Click me</button>
+    <h1>Icon</h1>
   </div>
 </template>
 
 <script setup lang="ts">
 defineOptions({
-  name: 'wButton'
+  name: 'Icon'
 })
 </script>
 

@@ -1,3 +1,19 @@
-import { Button } from './Button'
+import type { App } from 'vue'
 
-export { Button }
+import { Button } from './Button'
+import { Icon } from './Icon'
+
+
+export { Button, Icon }
+
+const components = [Button, Icon]
+
+const install = (app: App, options: any = {}) => {
+    components.forEach((component) => {
+        app.use(component)
+    })
+}
+
+export default {
+    install
+}

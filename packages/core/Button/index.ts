@@ -1,3 +1,4 @@
-import Button from './src/Button.vue'
+import { withInstall } from '@/utils/vueUtils'
+import button from './src/Button.vue'
 
-export { Button }
+export const Button = withInstall(button);

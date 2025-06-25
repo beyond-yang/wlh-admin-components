@@ -10,7 +10,7 @@
     "forceConsistentCasingInFileNames": true, // 文件名大小写一致
     "baseUrl": ".",                    // 基础路径
     "paths": {
-      "@/*": ["packages/*/src"]        // 路径别名（可根据实际目录调整）-----------如果你的源码目录不是 packages/*/src，需要调整
+      "@/*": ["packages/*"]      // 路径别名（可根据实际目录调整）-----------如果你的源码目录不是 packages/*/src，需要调整
     },
     "declaration": true,               // 生成类型声明文件
     "declarationMap": true,            // 生成声明文件映射
