@@ -1,6 +1,5 @@
 <template>
-  <div class="w-button">
-    啦啦啦
+  <div>
     <button>Click me</button>
   </div>
 </template>
@@ -11,10 +10,4 @@ defineOptions({
 })
 </script>
 
-<style scoped lang="scss">
-$color: #42b983;
-
-.w-button 99 {
-  color: $color;
-}
-</style>
+<style scoped lang="scss"></style>
