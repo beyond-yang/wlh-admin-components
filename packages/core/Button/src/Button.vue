@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 defineOptions({
-  name: 'wButton'
+  name: 'wButton',
 })
 </script>
 

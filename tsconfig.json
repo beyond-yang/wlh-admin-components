@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                // 编译后 JS 版本
-    "module": "ESNext",                // 使用 ESNext 模块系统
-    "moduleResolution": "Node",        // 模块解析方式
-    "strict": true,                    // 开启严格类型检查
-    "jsx": "preserve",                 // 保留 JSX（适用于 Vue3 + TSX）
-    "esModuleInterop": true,           // 兼容 CommonJS
-    "skipLibCheck": true,              // 跳过库类型检查，加快编译
+    "target": "ESNext", // 编译后 JS 版本
+    "module": "ESNext", // 使用 ESNext 模块系统
+    "moduleResolution": "Node", // 模块解析方式
+    "strict": true, // 开启严格类型检查
+    "jsx": "preserve", // 保留 JSX（适用于 Vue3 + TSX）
+    "esModuleInterop": true, // 兼容 CommonJS
+    "skipLibCheck": true, // 跳过库类型检查，加快编译
     "forceConsistentCasingInFileNames": true, // 文件名大小写一致
-    "baseUrl": ".",                    // 基础路径
+    "baseUrl": ".", // 基础路径
     "paths": {
-      "@/*": ["packages/*"]      // 路径别名（可根据实际目录调整）-----------如果你的源码目录不是 packages/*/src，需要调整
+      "@/*": ["packages/*"] // 路径别名（可根据实际目录调整）-----------如果你的源码目录不是 packages/*/src，需要调整
     },
-    "declaration": true,               // 生成类型声明文件
-    "declarationMap": true,            // 生成声明文件映射
-    "outDir": "dist"                   // 输出目录
+    "declaration": true, // 生成类型声明文件
+    "declarationMap": true, // 生成声明文件映射
+    "outDir": "dist" // 输出目录
   },
-  "include": ["packages", "examples", "docs"] // 包含哪些目录-------后续如果有其他源码目录，也要加进来
+  "include": ["packages", "examples", "docs", "vite.config.ts"] // 包含哪些目录-------后续如果有其他源码目录，也要加进来
 }

@@ -1,7 +1,7 @@
 {
-    "extends": "../../tsconfig.json",    // 继承根配置
-    "compilerOptions": {
-      "outDir": "dist"                   // 输出目录
-    },
-    "include": ["Button/src", "Button/index.ts"]                   // 包含 src 目录
-  }
+  "extends": "../../tsconfig.json", // 继承根配置
+  "compilerOptions": {
+    "outDir": "dist" // 输出目录
+  },
+  "include": ["Button/src", "Button/index.ts"] // 包含 src 目录
+}

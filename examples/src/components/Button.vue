@@ -4,7 +4,7 @@ import { Button, Icon } from '@wli-admin-components/core'
 
 <template>
   <Button>Click me</Button>
-  <Icon/>
+  <Icon />
 </template>
 
 <style scoped lang="scss"></style>
