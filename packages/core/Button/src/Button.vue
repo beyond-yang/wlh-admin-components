@@ -14,7 +14,7 @@ defineOptions({
 <style scoped lang="scss">
 $color: #42b983;
 
-.w-button {
+.w-button 99 {
   color: $color;
 }
 </style>
