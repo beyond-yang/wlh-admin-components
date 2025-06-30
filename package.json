@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "vite --config examples/vite.config.ts",
     "stylelint": "stylelint \"**/*.{vue,css,scss}\" --fix",
     "stylelint:check": "stylelint \"**/*.{vue,css,scss}\"",
     "lint": "eslint --ext .js,.ts,.vue packages/",
@@ -15,6 +16,9 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
+    "@vue/tsconfig": "^0.7.0",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "typescript": "~5.8.3",
     "@eslint/js": "^9.29.0",
     "@typescript-eslint/eslint-plugin": "^8.35.0",
     "@typescript-eslint/parser": "^8.35.0",
@@ -54,6 +58,7 @@
     }
   },
   "dependencies": {
+    "@wli-admin-components/core": "workspace:*",
     "ant-design-vue": "^4.2.6",
     "vue": "^3.5.17"
   }
