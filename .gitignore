@@ -32,3 +32,6 @@ coverage/
 # pnpm workspace
 **/pnpm-lock.yaml
 !pnpm-lock.yaml
+
+#缓存
+docs/.vitepress/cache/

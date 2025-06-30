@@ -9,6 +9,7 @@ import prettier from 'eslint-config-prettier'
 export default defineConfig([
   {
     ignores: [
+      'docs/.vitepress/**',
       // 依赖目录
       'node_modules/**',
       '.pnpm-store/**',
@@ -145,6 +146,16 @@ export default defineConfig([
       'vue/no-v-html': 'off',
       'vue/no-unused-vars': 'warn',
       // 你可以根据官方文档补充更多 vue3 推荐规则
+    },
+  },
+
+  {
+    // 为 docs 目录添加特殊配置
+    files: ['docs/**/*.ts'],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.json'],
+      },
     },
   },
 

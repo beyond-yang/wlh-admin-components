@@ -16,5 +16,13 @@
     "declarationMap": true, // 生成声明文件映射
     "outDir": "dist" // 输出目录
   },
-  "include": ["packages", "examples", "docs", "vite.config.ts"] // 包含哪些目录-------后续如果有其他源码目录，也要加进来
+  "exclude": ["node_modules", "dist"],
+  "include": [
+    "packages",
+    "examples",
+    "docs",
+    "vite.config.ts",
+    "docs/**/*.ts",
+    "docs/**/*.vue"
+  ] // 包含哪些目录-------后续如果有其他源码目录，也要加进来
 }
