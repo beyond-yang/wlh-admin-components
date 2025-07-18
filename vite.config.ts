@@ -20,4 +20,20 @@ export default defineConfig({
       ),
     },
   },
+  build: {
+    lib: {
+      entry: path.resolve(__dirname, 'packages/core/index.ts'),
+      name: 'WlhCore',
+      fileName: (format) => `wlh-core.${format}.js`,
+    },
+    outDir: 'packages/core/dist',
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
+  },
 })

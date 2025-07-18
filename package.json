@@ -9,6 +9,8 @@
   },
   "scripts": {
     "dev": "vite --config examples/vite.config.ts",
+    "build": "vite build",
+    "publish:components": "cd packages/core && pnpm publish",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
