@@ -1,6 +1,6 @@
 {
   "name": "@wli-admin-components/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/wlh-core.umd.js",
   "module": "dist/wlh-core.es.js",
@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "import": "./dist/wlh-core.es.js",
-      "require": "./dist/wlh-core.umd.js"
+      "require": "./dist/wlh-core.umd.js",
+      "types": "./dist/core/index.d.ts"
     }
   },
   "publishConfig": {
