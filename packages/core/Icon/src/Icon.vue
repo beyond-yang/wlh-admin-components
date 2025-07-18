@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="icon-wrapper">
     <h1>Icon</h1>
   </div>
 </template>
@@ -10,4 +10,8 @@ defineOptions({
 })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.icon-wrapper {
+  color: rgb(220, 103, 207);
+}
+</style>

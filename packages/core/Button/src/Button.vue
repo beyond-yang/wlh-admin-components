@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="button-wrapper">
     <button>Click me</button>
   </div>
 </template>
@@ -10,4 +10,13 @@ defineOptions({
 })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(150, 222, 213);
+}
+</style>
