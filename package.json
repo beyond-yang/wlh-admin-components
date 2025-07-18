@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vite --config examples/vite.config.ts",
-    "build": "vite build",
+    "build": "vite build && tsc -p packages/core/tsconfig.json",
     "publish:components": "cd packages/core && pnpm publish",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",

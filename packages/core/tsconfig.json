@@ -3,5 +3,5 @@
   "compilerOptions": {
     "outDir": "dist" // 输出目录
   },
-  "include": ["Button/src", "Button/index.ts"] // 包含 src 目录
+  "include": ["**/*.ts", "**/*.vue", "../../shims-vue.d.ts"] // 包含 src 目录
 }

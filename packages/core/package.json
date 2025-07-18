@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/wlh-core.umd.js",
   "module": "dist/wlh-core.es.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/core/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/wlh-core.es.js",

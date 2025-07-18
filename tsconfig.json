@@ -23,6 +23,7 @@
     "docs",
     "vite.config.ts",
     "docs/**/*.ts",
-    "docs/**/*.vue"
+    "docs/**/*.vue",
+    "shims-vue.d.ts"
   ] // 包含哪些目录-------后续如果有其他源码目录，也要加进来
 }
