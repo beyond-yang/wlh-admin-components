@@ -1,6 +1,6 @@
 {
   "name": "@wli-admin-components/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/wlh-core.umd.js",
   "module": "dist/wlh-core.es.js",
@@ -11,7 +11,7 @@
       "require": "./dist/wlh-core.umd.js",
       "types": "./dist/core/index.d.ts"
     },
-    "./dist/style.css": "./dist/wlh-admin-components.css"
+    "./dist/wlh-admin-components.css": "./dist/wlh-admin-components.css"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
