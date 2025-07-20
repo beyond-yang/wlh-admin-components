@@ -10,7 +10,8 @@
       "import": "./dist/wlh-core.es.js",
       "require": "./dist/wlh-core.umd.js",
       "types": "./dist/core/index.d.ts"
-    }
+    },
+    "./dist/style.css": "./dist/wlh-admin-components.css"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
