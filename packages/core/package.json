@@ -1,6 +1,6 @@
 {
   "name": "@wli-admin-components/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/wlh-core.umd.js",
   "module": "dist/wlh-core.es.js",
