@@ -3,7 +3,7 @@ import { Button, Icon } from '@wli-admin-components/core'
 </script>
 
 <template>
-  <Button>Click me</Button>
+  <Button></Button>
   <Icon />
 </template>
 
