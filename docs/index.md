@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: WLH Admin Components
+  name: 个人组件库
   text: 企业级中后台组件库
   tagline: 基于 Vue 3 + TypeScript 的高质量组件库
   actions:
@@ -10,7 +10,7 @@ hero:
       link: /guide/quickstart
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/your-username/wlh-admin-components
+      link: https://github.com/beyond-yang/wlh-admin-components
 
 features:
   - icon: ⚡️

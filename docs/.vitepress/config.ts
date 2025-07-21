@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'WLH Admin Components',
+  title: '组件库',
   description: '企业级中后台组件库',
   themeConfig: {
     logo: '/logo.png',
@@ -28,6 +28,9 @@ export default defineConfig({
           ],
         },
       ],
+    },
+    search: {
+      provider: 'local',
     },
   },
 })
