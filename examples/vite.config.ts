@@ -9,11 +9,12 @@ export default defineConfig({
   root: fileURLToPath(new URL('.', import.meta.url)),
   plugins: [
     vue(),
-    visualizer({
-      open: true, // 打包后自动打开分析页面
-      gzipSize: true,
-      brotliSize: true,
-    }),
+    // visualizer({
+    //   open: true,
+    //   gzipSize: true,
+    //   brotliSize: true,
+    //   filename: 'dist/stats.html'
+    // }),
   ],
   resolve: {
     alias: {
@@ -21,6 +22,13 @@ export default defineConfig({
         fileURLToPath(new URL('.', import.meta.url)),
         '../packages',
       ),
+    },
+  },
+  build: {
+    outDir: 'dist',
+    minify: 'esbuild', // 或 'terser'
+    rollupOptions: {
+      treeshake: true, // 确保开启 Tree Shaking
     },
   },
 })

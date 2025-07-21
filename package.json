@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "vite --config examples/vite.config.ts",
+    "build:example": "vite build --config examples/vite.config.ts",
     "dev:core": "pnpm --filter @wli-admin-components/core run build:watch",
     "build": "vite build && tsc -p packages/core/tsconfig.json",
     "build:watch": "concurrently \"vite build --watch\" \"tsc -p packages/core/tsconfig.json --watch\"",

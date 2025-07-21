@@ -8,6 +8,9 @@
 defineOptions({
   name: 'WButton',
 })
+const BUTTON_MARKER = 'THIS_IS_BUTTON_COMPONENT' // 添加标记
+// eslint-disable-next-line no-undef
+console.log(BUTTON_MARKER)
 </script>
 
 <style scoped lang="scss">

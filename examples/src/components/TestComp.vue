@@ -1,11 +1,9 @@
 <script setup lang="ts">
-// import { WButton, WIcon } from '@wli-admin-components/core'
+import { WButton } from '@wli-admin-components/core'
 </script>
 
 <template>
-  <!-- <WButton></WButton> -->
-  <wButton />
-  <WIcon />
+  <WButton />
 </template>
 
 <style scoped lang="scss"></style>
