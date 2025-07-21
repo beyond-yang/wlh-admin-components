@@ -1,6 +1,6 @@
 {
   "name": "@wli-admin-components/core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/wlh-core.umd.js",
   "module": "dist/wlh-core.es.js",
@@ -13,6 +13,7 @@
     },
     "./dist/wlh-admin-components.css": "./dist/wlh-admin-components.css"
   },
+  "files": ["dist"],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
