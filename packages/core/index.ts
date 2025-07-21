@@ -1,15 +1,15 @@
 import type { App } from 'vue'
 
-import { Button } from './Button'
-import { Icon } from './Icon'
+import { WButton } from './Button'
+import { WIcon } from './Icon'
 
-export { Button, Icon }
+export { WButton, WIcon }
 
-const components = [Button, Icon]
+const components = [WButton, WIcon]
 
 const install = (app: App) => {
   components.forEach((component) => {
-    app.use(component)
+    app.component(component.name as string, component)
   })
 }
 

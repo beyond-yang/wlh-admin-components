@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 defineOptions({
-  name: 'Icon',
+  name: 'WIcon',
 })
 </script>
 

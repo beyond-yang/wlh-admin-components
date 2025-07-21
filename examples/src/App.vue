@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Button from './components/Button.vue'
+import TestComp from './components/TestComp.vue'
 </script>
 
 <template>
-  <Button />
+  <TestComp />
 </template>
 
 <style scoped>

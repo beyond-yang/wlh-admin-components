@@ -1,12 +1,12 @@
 <template>
   <div class="button-wrapper">
-    <button>Click me999555</button>
+    <button>Click me999555566666</button>
   </div>
 </template>
 
 <script setup lang="ts">
 defineOptions({
-  name: 'wButton',
+  name: 'WButton',
 })
 </script>
 

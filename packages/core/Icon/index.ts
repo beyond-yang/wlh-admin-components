@@ -1,5 +1,5 @@
 import { withInstall } from '@/utils/vueUtils'
 
-import WIcon from './src/Icon.vue'
+import Icon from './src/Icon.vue'
 
-export const Icon = withInstall(WIcon)
+export const WIcon = withInstall(Icon)
