@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "vite --config examples/vite.config.ts",
     "dev:core": "pnpm --filter @wli-admin-components/core run build:watch",
-    "build:watch": "vite build --watch && tsc -p packages/core/tsconfig.json",
+    "build": "vite build && tsc -p packages/core/tsconfig.json",
+    "build:watch": "concurrently \"vite build --watch\" \"tsc -p packages/core/tsconfig.json --watch\"",
     "dev:all": "concurrently \"pnpm run build:watch\" \"pnpm run dev\"",
     "publish:components": "cd packages/core && pnpm publish",
     "docs:dev": "vitepress dev docs",
