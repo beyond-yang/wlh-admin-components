@@ -73,6 +73,7 @@
   },
   "dependencies": {
     "@wli-admin-components/core": "workspace:*",
+    "@wli-admin-components/utils": "workspace:*",
     "ant-design-vue": "^4.2.6",
     "vue": "^3.5.17"
   }

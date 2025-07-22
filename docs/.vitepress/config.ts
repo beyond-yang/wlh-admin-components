@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import path from 'path'
 
 export default defineConfig({
   title: '组件库',
@@ -31,6 +32,13 @@ export default defineConfig({
     },
     search: {
       provider: 'local',
+    },
+  },
+  vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '../../packages'),
+      },
     },
   },
 })
