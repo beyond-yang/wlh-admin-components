@@ -3,5 +3,6 @@
   "compilerOptions": {
     "outDir": "dist" // 输出目录
   },
+  "exclude": ["dist", "node_modules"],
   "include": ["**/*.ts", "**/*.vue", "../../shims-vue.d.ts"] // 包含 src 目录
 }

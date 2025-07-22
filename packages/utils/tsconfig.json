@@ -3,5 +3,5 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src"]
+  "include": ["**/*.ts", "**/*.vue", "../../shims-vue.d.ts"] // 包含 src 目录
 }
