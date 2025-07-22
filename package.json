@@ -9,8 +9,8 @@
   },
   "scripts": {
     "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "changeset publish",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish",
     "dev": "vite --config examples/vite.config.ts",
     "build:example": "vite build --config examples/vite.config.ts",
     "dev:core": "pnpm --filter @wli-admin-components/core run build:watch",
