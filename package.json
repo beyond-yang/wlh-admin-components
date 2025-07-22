@@ -8,6 +8,9 @@
     "node": ">=18.0.0"
   },
   "scripts": {
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish",
     "dev": "vite --config examples/vite.config.ts",
     "build:example": "vite build --config examples/vite.config.ts",
     "dev:core": "pnpm --filter @wli-admin-components/core run build:watch",
@@ -28,6 +31,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
+    "@changesets/cli": "^2.29.5",
     "@eslint/js": "^9.29.0",
     "@typescript-eslint/eslint-plugin": "^8.35.0",
     "@typescript-eslint/parser": "^8.35.0",
@@ -73,7 +77,6 @@
   },
   "dependencies": {
     "@wli-admin-components/core": "workspace:*",
-    "@wli-admin-components/utils": "workspace:*",
     "ant-design-vue": "^4.2.6",
     "vue": "^3.5.17"
   }
