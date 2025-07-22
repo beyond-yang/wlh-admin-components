@@ -1,6 +1,6 @@
 # 快速开始
 
-## 1 引入 wlh-admin-components
+## 1 引入 @wlh-admin-components
 
 ```bash
 $ pnpm i --save @wli-admin-components/core

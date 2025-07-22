@@ -1,6 +1,6 @@
 <template>
   <div class="button-wrapper">
-    <button>Click me999555566666</button>
+    <button>Click me</button>
   </div>
 </template>
 
@@ -15,11 +15,13 @@ console.log(BUTTON_MARKER)
 
 <style scoped lang="scss">
 .button-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 300px;
+  display: inline-block;
+  color: rgb(111, 7, 230);
   background-color: rgb(150, 222, 213);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(111, 7, 230);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 </style>
