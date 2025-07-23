@@ -15,7 +15,6 @@
         :style="iconStyle"
       />
       <slot v-bind="data || {}"></slot>
-      测试changeset功能啊啊啊啊
       <WIcon
         :icon="postIcon"
         v-if="postIcon"

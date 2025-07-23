@@ -1,5 +1,11 @@
 # @wli-admin-components/core
 
+## 3.0.0
+
+### Major Changes
+
+- 826eb53: 再次测试changeset
+
 ## 2.0.0
 
 ### Major Changes
