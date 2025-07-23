@@ -1,3 +1,4 @@
+// import './src/Icon.scss'
 import { withInstall } from '@/utils/vueUtils'
 
 import { Icon } from './src/Icon'

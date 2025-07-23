@@ -1,6 +1,6 @@
-import { createVNode, defineComponent } from 'vue';
-import * as $Icon from '@ant-design/icons-vue';
-import './style.scss';
+import { createVNode, defineComponent } from 'vue'
+import * as $Icon from '@ant-design/icons-vue'
+// import './Icon.scss';
 
 export const Icon = defineComponent({
   name: 'WIcon',
@@ -27,16 +27,16 @@ export const Icon = defineComponent({
     },
   },
   setup(props, { attrs }) {
-    const { icon, disabled, size } = props;
-    let fs = `${size}`;
-    fs = `${fs.replace('px', '')}px`;
+    const { icon, disabled, size } = props
+    let fs = `${size}`
+    fs = `${fs.replace('px', '')}px`
     const render = () => {
       return createVNode($Icon[icon as keyof typeof $Icon], {
         ...attrs,
         style: { fontSize: fs, cursor: 'pointer' },
         class: [`icon`, { disabled: disabled, 'danger-icon': props.danger }],
-      });
-    };
-    return render;
+      })
+    }
+    return render
   },
-});
+})

@@ -36,38 +36,6 @@ defineOptions({
 
 defineProps(buttonProps)
 </script>
-<style lang="scss" scoped>
-.ant-btn {
-  min-width: 80px;
-  padding: 0 10px;
-}
-
-.ant-btn-default {
-  border-color: var(--wlh-primary-color);
-  background-color: var(--color-primary-bg);
-  color: var(--color-primary-text);
-
-  &:disabled {
-    border-color: var(--color-primary-border);
-    background-color: var(--color-primary-bg-disabled);
-    color: var(--color-primary-text-disabled);
-  }
-}
-
-.icon {
-  display: inline-flex !important;
-  color: var(--color-primary-text-white);
-}
-
-.btn-default {
-  height: 28px;
-}
-
-.btn-small {
-  height: 26px;
-}
-
-.btn-mini {
-  height: 24px;
-}
-</style>
+<!-- <style lang="scss" scoped>
+@import './BaseButton.scss';
+</style> -->

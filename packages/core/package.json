@@ -11,7 +11,10 @@
       "require": "./dist/wlh-core.umd.js",
       "types": "./dist/core/index.d.ts"
     },
-    "./dist/wlh-admin-components.css": "./dist/wlh-admin-components.css"
+    "./dist/wlh-admin-components.css": "./dist/wlh-admin-components.css",
+    "./dist/button.css": "./dist/button.css",
+    "./dist/icon.css": "./dist/icon.css",
+    "./dist/default.css": "./dist/default.css"
   },
   "files": [
     "dist"

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { WButton, WIcon } from '@wli-admin-components/core'
+import '@wli-admin-components/core/dist/button.css'
 </script>
 
 <template>
