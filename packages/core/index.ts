@@ -1,3 +1,4 @@
+import '../themes/default.css'
 import type { App } from 'vue'
 
 import { WButton } from './Button'

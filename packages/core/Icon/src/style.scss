@@ -1,12 +1,12 @@
 .icon {
-  color: var(--color-primary);
+  color: var(--wlh-primary-color);
 
   &.danger-icon {
-    color: var(--color-error);
+    color: var(--wlh-error-color);
   }
 
   &.disabled {
-    color: var(--color-text-disabled);
+    color: var(--color-primary-text-disabled);
     cursor: not-allowed;
     pointer-events: none;
   }

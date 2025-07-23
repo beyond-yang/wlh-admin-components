@@ -1,0 +1,29 @@
+:root {
+  /* 主题色 */
+  --wlh-primary-color: #1677ff;
+
+  /* 背景色 */
+  --color-primary-bg: #c8d0dc;
+  --color-primary-bg-disabled: #c8d0dc;
+
+  /* 文字色 */
+  --color-primary-text: #010101;
+  --color-primary-text-disabled: #c8d0dc;
+  --color-primary-text-white: #ffffff;
+
+  /* 禁用色 */
+  --color-primary-disabled: #c8d0dc;
+
+  /* 边框色 */
+  --color-primary-border: #c8d0dc;
+
+  /* 阴影色 */
+  --color-primary-shadow: #c8d0dc;
+
+  /* 成功色 */
+  --wlh-success-color: #52c41a;
+  --wlh-warning-color: #faad14;
+  --wlh-error-color: #ff4d4f;
+  --wlh-border-radius: 4px;
+  /* ...更多变量 */
+}

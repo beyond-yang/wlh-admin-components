@@ -43,20 +43,20 @@ defineProps(buttonProps)
 }
 
 .ant-btn-default {
-  border-color: var(--color-primary);
+  border-color: var(--wlh-primary-color);
   background-color: var(--color-primary-bg);
   color: var(--color-primary-text);
 
   &:disabled {
-    border-color: var(--color-border);
-    background-color: var(--color-bg-container-disabled);
-    color: var(--color-text-disabled);
+    border-color: var(--color-primary-border);
+    background-color: var(--color-primary-bg-disabled);
+    color: var(--color-primary-text-disabled);
   }
 }
 
 .icon {
   display: inline-flex !important;
-  color: var(--color-white);
+  color: var(--color-primary-text-white);
 }
 
 .btn-default {
