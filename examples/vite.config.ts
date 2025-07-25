@@ -22,6 +22,8 @@ export default defineConfig({
         fileURLToPath(new URL('.', import.meta.url)),
         '../packages',
       ),
+      // 优化开发体验-直接引入core的index.ts-热更新
+      // '@wli-admin-components/core': path.resolve(fileURLToPath(new URL('.', import.meta.url)), '../packages/core/index.ts'),
     },
   },
   build: {
